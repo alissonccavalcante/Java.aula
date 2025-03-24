@@ -13,7 +13,7 @@ public class CalculoDeArea {
             System.out.println("Digite o raio da área a ser calculado: ");
             area = scan.nextDouble();
             System.out.println("Digite o valor de Pi: ");
-            raioDoCirculo = pi + area;
+            raioDoCirculo = (area * area) * pi;
             System.out.println("A área de raio do circulo é de: " + raioDoCirculo);
 
         } catch (Exception e) {
